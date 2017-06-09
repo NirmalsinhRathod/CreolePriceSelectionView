@@ -9,7 +9,44 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Manual Installation
+
+Just drag a file into your project and use below code:
+
+```ruby
+    CreolePriceSelectionView *objCreolePriceSelectionView = [[CreolePriceSelectionView alloc] initWithFrame:CGRectMake(YOUR_FRAME)];
+    [objCreolePriceSelectionView setDefaultColor]; // It will set defualt color for text and background.
+    
+    /*
+     You can set text color manually also.
+     
+     objCreolePriceSelectionView.selectItemColor = YOUR_SELECTED_ITEM_COLOR.
+     objCreolePriceSelectionView.normalItemColor  = YOUR_NORMAL_ITEM_COLOR.
+     objCreolePriceSelectionView.selectedTextColor = YOUR_SELECTED_TEXT_COLOR
+     objCreolePriceSelectionView.normalTextColor = YOUR_NORMAL_TEXT_COLOR
+     
+     */
+    
+    // You can pass your array for price like this:
+    [objCreolePriceSelectionView setup:[[NSMutableArray alloc] initWithObjects:@"10", @"20", @"30", @"40", @"50", @"60", @"70", @"80", @"90", @"100", nil]];
+    
+    // Its directlly select the
+    // This is optional steps to do. If you don't do this one, then it will set first automatically.
+    [objCreolePriceSelectionView setPriceForItem:@"30"];
+    
+    // Set delegate to get access of current index
+    objCreolePriceSelectionView.delegate = self;
+    [self.view addSubview:objCreolePriceSelectionView];
+    
+    
+    // DELEGATE 
+    -(void)getPriceForSelectedIndex :(NSString *)strPrice
+    {
+     NSLog(@"Current selected price is :%@",strPrice);
+    }
+
+```
+
 
 ## Installation
 
