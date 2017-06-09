@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CreolePriceSelectionView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Its helps you to manage your price selection'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ It will help you to give a circular price selection controller. You can get sele
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NirmalsinhRathod' => 'nirmasinh@creolestudios.com' }
-  s.source           = { :git => 'https://github.com/NirmalsinhRathod/CreolePriceSelectionView.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/NirmalsinhRathod/CreolePriceSelectionView.git', :branch => 'master' :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
