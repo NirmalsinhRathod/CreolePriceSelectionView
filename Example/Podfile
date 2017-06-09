@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CreolePriceSelectionView_Example' do
+  pod 'CreolePriceSelectionView', :path => '../'
+
+  target 'CreolePriceSelectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
