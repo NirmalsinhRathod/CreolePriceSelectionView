@@ -48,6 +48,7 @@
     _carousel.delegate = self;
     _carousel.dataSource =self;
     _carousel.type = iCarouselTypeLinear;
+    
     [_carousel reloadData];
     [self addSubview:_carousel];
 }

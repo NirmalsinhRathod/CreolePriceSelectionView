@@ -38,5 +38,5 @@ It will help you to give a circular price selection controller. You can get sele
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'iCarousel'
+s.dependency 'iCarousel',  '~> 1.8.3'
 end
