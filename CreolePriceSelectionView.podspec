@@ -25,7 +25,7 @@ It will help you to give a circular price selection controller. You can get sele
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NirmalsinhRathod' => 'nirmasinh@creolestudios.com' }
-s.source           = { :git => 'https://github.com/NirmalsinhRathod/CreolePriceSelectionView.git', :branch => 'master' :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/NirmalsinhRathod/CreolePriceSelectionView.git', :branch => 'master', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
