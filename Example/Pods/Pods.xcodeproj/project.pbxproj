@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D28D63D33ED2CB6601D4B492B765ED1 /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC7DE4A0B6F162DE71CE235DF59D09F /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8C480CCAB77C8F794040B62276ACAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */; };
+		1F099560ECC2EFF146641B758DAC9EEB /* CreolePriceSelectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CADF7A09136D2DFC3D2AC4302BC93C43 /* CreolePriceSelectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209EEE464B3807EB82EA0FBAD8F71958 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EDDEB9BCF59E7DA39179CE0F4026F2 /* QuartzCore.framework */; };
+		239348F78E25656497034D0311D3BC7B /* Pods-CreolePriceSelectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1856534FA1FAC54B9AD66841EE517 /* Pods-CreolePriceSelectionView_Tests-dummy.m */; };
+		4D16D785FB25A9C1D151F40137F4F0F8 /* CreolePriceSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E36F23E7E5C80D4C9AAA48EEE1F7EAF /* CreolePriceSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B05723ACDAC34AD87FA94A6FA1AFDA4 /* CreolePriceSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F56883E167941DDB67330D4CA08B /* CreolePriceSelectionView.m */; };
+		85CD9FE2AA5761FF01A23F9556AA350A /* Pods-CreolePriceSelectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C155E777A1BE35DB3177D2310257C14 /* Pods-CreolePriceSelectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E1BE001644498ACB9975D1753C5B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */; };
+		8E27D1C2DCB617210A466013797911CA /* Pods-CreolePriceSelectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A4DE65E5FD5D499135F67B79C916B /* Pods-CreolePriceSelectionView_Example-dummy.m */; };
+		8E801522F542953D1BBCA2195D467FF5 /* CreolePriceSelectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BE0527A51E667F532A020F1BB32EB3 /* CreolePriceSelectionView-dummy.m */; };
+		A427FA1023F22048B6C52E6EF5940D66 /* Pods-CreolePriceSelectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D65DD9A084CC649AEDE37E702A4401 /* Pods-CreolePriceSelectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A863E96D309D0B6BDA315FC57633B27D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */; };
+		C9D9F06C156D5DEB9A03431AA88739C7 /* iCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D916B1EFA35E2B80C60C88DCA04449 /* iCarousel.framework */; };
+		EA6F221426526B34EE6E2337CB425367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */; };
+		F317FE21C53EE54EA7692A4D9662498F /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C21597CA3CFCC94FF05645071FF642 /* iCarousel-dummy.m */; };
+		F92D7F4B4A56A3F806B5C3A40A5244E3 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DF3C1D670575E4FC61D5D4E74EE3B /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA26C8BE3CE6BE1BED10D863CA7E6164 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCB2009ECECF2F86EED8722A85E1BB9 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62FFDBC548A56D175F9D805499E6121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FD2636CC09EA6A8427CFA82E61FFBB;
+			remoteInfo = CreolePriceSelectionView;
+		};
+		D718A410808553BBDA5B3E0EE74FAC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1173F13968978B8D6A28E9535F188EA2;
+			remoteInfo = iCarousel;
+		};
+		EA2C02FC4EA015E9855046E5DF3CD923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1173F13968978B8D6A28E9535F188EA2;
+			remoteInfo = iCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1332762E71DD0F273DB1CB39834543FC /* Pods-CreolePriceSelectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CreolePriceSelectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		13C21597CA3CFCC94FF05645071FF642 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
+		140BE019930E4986E9E3BBF1848218D6 /* CreolePriceSelectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CreolePriceSelectionView.modulemap; sourceTree = "<group>"; };
+		14201B2B085941A7BE4DE7032400FA02 /* Pods-CreolePriceSelectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CreolePriceSelectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		20D916B1EFA35E2B80C60C88DCA04449 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297DF3C1D670575E4FC61D5D4E74EE3B /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		2E36F23E7E5C80D4C9AAA48EEE1F7EAF /* CreolePriceSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CreolePriceSelectionView.h; sourceTree = "<group>"; };
+		37EDDEB9BCF59E7DA39179CE0F4026F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4BB2F56883E167941DDB67330D4CA08B /* CreolePriceSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CreolePriceSelectionView.m; sourceTree = "<group>"; };
+		4FA1856534FA1FAC54B9AD66841EE517 /* Pods-CreolePriceSelectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CreolePriceSelectionView_Tests-dummy.m"; sourceTree = "<group>"; };
+		521A47BEDA1049E03C58E3933AE6C126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5788D24B7005FBB33DCFC03452F342E6 /* Pods-CreolePriceSelectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreolePriceSelectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5C155E777A1BE35DB3177D2310257C14 /* Pods-CreolePriceSelectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CreolePriceSelectionView_Example-umbrella.h"; sourceTree = "<group>"; };
+		601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		634A4DE65E5FD5D499135F67B79C916B /* Pods-CreolePriceSelectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CreolePriceSelectionView_Example-dummy.m"; sourceTree = "<group>"; };
+		671E518926D1CDCE14FE558BD21788DE /* Pods-CreolePriceSelectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreolePriceSelectionView_Example-resources.sh"; sourceTree = "<group>"; };
+		6C216D58377F6CC7A09911D3B4AD21E9 /* Pods-CreolePriceSelectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CreolePriceSelectionView_Example.modulemap"; sourceTree = "<group>"; };
+		728F1896EF1280F7C783D7DE70565AA9 /* Pods-CreolePriceSelectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreolePriceSelectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BCB2009ECECF2F86EED8722A85E1BB9 /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		7DC7DE4A0B6F162DE71CE235DF59D09F /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		8143EB11E49C567E8F8571C9DE9284E0 /* Pods-CreolePriceSelectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreolePriceSelectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8314BFFC1507F682EF72252379F7304B /* Pods_CreolePriceSelectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CreolePriceSelectionView_Example.framework; path = "Pods-CreolePriceSelectionView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F701F4C36CFEA50076D72B6437CCDAF /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		903CFA47DFD66D3777A79A69B3328159 /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iCarousel.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97FA0B0360A438DD1012AA7A531CBB01 /* Pods_CreolePriceSelectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CreolePriceSelectionView_Tests.framework; path = "Pods-CreolePriceSelectionView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98114D5A92212A8EE4D9739394737DAE /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel.framework; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A828254F8B66A4857D5A348B9448F89C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF049DF92F511EDD8887D99CBBA705AC /* CreolePriceSelectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreolePriceSelectionView-prefix.pch"; sourceTree = "<group>"; };
+		C1BE0527A51E667F532A020F1BB32EB3 /* CreolePriceSelectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CreolePriceSelectionView-dummy.m"; sourceTree = "<group>"; };
+		C3773EE8B1C270510EE21C8AE6F15A0F /* Pods-CreolePriceSelectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreolePriceSelectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C7D65DD9A084CC649AEDE37E702A4401 /* Pods-CreolePriceSelectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CreolePriceSelectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8D809203CE3FE8DB8DD611E8FDF2F64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB4CA562EA91031828DD26DBD6B7C03 /* Pods-CreolePriceSelectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreolePriceSelectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CADF7A09136D2DFC3D2AC4302BC93C43 /* CreolePriceSelectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreolePriceSelectionView-umbrella.h"; sourceTree = "<group>"; };
+		D36531527C2B6A3D2AE64110ED3F8702 /* Pods-CreolePriceSelectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreolePriceSelectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D577F76520A9F6C050F23952FF1E83EB /* Pods-CreolePriceSelectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CreolePriceSelectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA6A16CA5C1CE10B24688E146E1D9AC7 /* Pods-CreolePriceSelectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CreolePriceSelectionView_Tests.modulemap"; sourceTree = "<group>"; };
+		E285A39DB31F6D33A75C28A3EFC0C54F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E806A185A6FC6D805560B1B4EE1ED30D /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		F281F1654D76C902B2DB61960D110096 /* Pods-CreolePriceSelectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CreolePriceSelectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5574384D5CD7D2C56B9563F663D8F6D /* CreolePriceSelectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CreolePriceSelectionView.framework; path = CreolePriceSelectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BB151DD320D7E191EFAE1201AEFE77 /* CreolePriceSelectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreolePriceSelectionView.xcconfig; sourceTree = "<group>"; };
+		FA5D756EA6613DDFCEE06356BB40BD5B /* Pods-CreolePriceSelectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreolePriceSelectionView_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F57182D89B01874E1A3333951651E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A863E96D309D0B6BDA315FC57633B27D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6194E375DBC88B012F345CDB98AF856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6F221426526B34EE6E2337CB425367 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05C7A8C9A6BEC1501E8DD9185F24E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1BE001644498ACB9975D1753C5B36 /* Foundation.framework in Frameworks */,
+				209EEE464B3807EB82EA0FBAD8F71958 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEFBA7141019E3ACEC461B27216B070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8C480CCAB77C8F794040B62276ACAB /* Foundation.framework in Frameworks */,
+				C9D9F06C156D5DEB9A03431AA88739C7 /* iCarousel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2A1F54EEF18EE8BBCB235816B12212 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				140BE019930E4986E9E3BBF1848218D6 /* CreolePriceSelectionView.modulemap */,
+				F9BB151DD320D7E191EFAE1201AEFE77 /* CreolePriceSelectionView.xcconfig */,
+				C1BE0527A51E667F532A020F1BB32EB3 /* CreolePriceSelectionView-dummy.m */,
+				AF049DF92F511EDD8887D99CBBA705AC /* CreolePriceSelectionView-prefix.pch */,
+				CADF7A09136D2DFC3D2AC4302BC93C43 /* CreolePriceSelectionView-umbrella.h */,
+				521A47BEDA1049E03C58E3933AE6C126 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CreolePriceSelectionView";
+			sourceTree = "<group>";
+		};
+		33DC6B6548C9DA0D8D09CAAE4620B935 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				903CFA47DFD66D3777A79A69B3328159 /* iCarousel.modulemap */,
+				8F701F4C36CFEA50076D72B6437CCDAF /* iCarousel.xcconfig */,
+				13C21597CA3CFCC94FF05645071FF642 /* iCarousel-dummy.m */,
+				E806A185A6FC6D805560B1B4EE1ED30D /* iCarousel-prefix.pch */,
+				7DC7DE4A0B6F162DE71CE235DF59D09F /* iCarousel-umbrella.h */,
+				A828254F8B66A4857D5A348B9448F89C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+		3A41DE90C19F5692DAF5818C089604C3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				601A2E5CCDDEFDCD5062A679D0722BAF /* Foundation.framework */,
+				37EDDEB9BCF59E7DA39179CE0F4026F2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		469CF1DA196C9970E7212AD5586E276A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E36F23E7E5C80D4C9AAA48EEE1F7EAF /* CreolePriceSelectionView.h */,
+				4BB2F56883E167941DDB67330D4CA08B /* CreolePriceSelectionView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A74F625C2B533BDD45D4D2EAE94D407 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA83B1BA08A36075815BFFF91D5565AF /* Pods-CreolePriceSelectionView_Example */,
+				844A69CC798E2808AA7B3DC557BFF36D /* Pods-CreolePriceSelectionView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DCEDE1772FD6A36C0E61C36F81C0B7FC /* Development Pods */,
+				8F3484F17BE5F77C6B3BEA78043E52D2 /* Frameworks */,
+				AAA581DFCE6A6FF2B2DB97F757A79B01 /* Pods */,
+				DD2A0F13780FFF5779B8D0152D1D638B /* Products */,
+				5A74F625C2B533BDD45D4D2EAE94D407 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844A69CC798E2808AA7B3DC557BFF36D /* Pods-CreolePriceSelectionView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D809203CE3FE8DB8DD611E8FDF2F64 /* Info.plist */,
+				DA6A16CA5C1CE10B24688E146E1D9AC7 /* Pods-CreolePriceSelectionView_Tests.modulemap */,
+				D577F76520A9F6C050F23952FF1E83EB /* Pods-CreolePriceSelectionView_Tests-acknowledgements.markdown */,
+				14201B2B085941A7BE4DE7032400FA02 /* Pods-CreolePriceSelectionView_Tests-acknowledgements.plist */,
+				4FA1856534FA1FAC54B9AD66841EE517 /* Pods-CreolePriceSelectionView_Tests-dummy.m */,
+				5788D24B7005FBB33DCFC03452F342E6 /* Pods-CreolePriceSelectionView_Tests-frameworks.sh */,
+				FA5D756EA6613DDFCEE06356BB40BD5B /* Pods-CreolePriceSelectionView_Tests-resources.sh */,
+				C7D65DD9A084CC649AEDE37E702A4401 /* Pods-CreolePriceSelectionView_Tests-umbrella.h */,
+				D36531527C2B6A3D2AE64110ED3F8702 /* Pods-CreolePriceSelectionView_Tests.debug.xcconfig */,
+				728F1896EF1280F7C783D7DE70565AA9 /* Pods-CreolePriceSelectionView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CreolePriceSelectionView_Tests";
+			path = "Target Support Files/Pods-CreolePriceSelectionView_Tests";
+			sourceTree = "<group>";
+		};
+		8F3484F17BE5F77C6B3BEA78043E52D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D916B1EFA35E2B80C60C88DCA04449 /* iCarousel.framework */,
+				3A41DE90C19F5692DAF5818C089604C3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F55E82A8E2B6AD75DCE7E9C3C90EDA3 /* CreolePriceSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E687A07E29F2E0DF965B6687AA5805EE /* CreolePriceSelectionView */,
+				1E2A1F54EEF18EE8BBCB235816B12212 /* Support Files */,
+			);
+			name = CreolePriceSelectionView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93E1F8386C1DCEE8733A525C2D240D3E /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB2009ECECF2F86EED8722A85E1BB9 /* iCarousel.h */,
+				297DF3C1D670575E4FC61D5D4E74EE3B /* iCarousel.m */,
+				33DC6B6548C9DA0D8D09CAAE4620B935 /* Support Files */,
+			);
+			name = iCarousel;
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		AA83B1BA08A36075815BFFF91D5565AF /* Pods-CreolePriceSelectionView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E285A39DB31F6D33A75C28A3EFC0C54F /* Info.plist */,
+				6C216D58377F6CC7A09911D3B4AD21E9 /* Pods-CreolePriceSelectionView_Example.modulemap */,
+				F281F1654D76C902B2DB61960D110096 /* Pods-CreolePriceSelectionView_Example-acknowledgements.markdown */,
+				1332762E71DD0F273DB1CB39834543FC /* Pods-CreolePriceSelectionView_Example-acknowledgements.plist */,
+				634A4DE65E5FD5D499135F67B79C916B /* Pods-CreolePriceSelectionView_Example-dummy.m */,
+				C3773EE8B1C270510EE21C8AE6F15A0F /* Pods-CreolePriceSelectionView_Example-frameworks.sh */,
+				671E518926D1CDCE14FE558BD21788DE /* Pods-CreolePriceSelectionView_Example-resources.sh */,
+				5C155E777A1BE35DB3177D2310257C14 /* Pods-CreolePriceSelectionView_Example-umbrella.h */,
+				8143EB11E49C567E8F8571C9DE9284E0 /* Pods-CreolePriceSelectionView_Example.debug.xcconfig */,
+				CAB4CA562EA91031828DD26DBD6B7C03 /* Pods-CreolePriceSelectionView_Example.release.xcconfig */,
+			);
+			name = "Pods-CreolePriceSelectionView_Example";
+			path = "Target Support Files/Pods-CreolePriceSelectionView_Example";
+			sourceTree = "<group>";
+		};
+		AAA581DFCE6A6FF2B2DB97F757A79B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93E1F8386C1DCEE8733A525C2D240D3E /* iCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCEDE1772FD6A36C0E61C36F81C0B7FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F55E82A8E2B6AD75DCE7E9C3C90EDA3 /* CreolePriceSelectionView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DD2A0F13780FFF5779B8D0152D1D638B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5574384D5CD7D2C56B9563F663D8F6D /* CreolePriceSelectionView.framework */,
+				98114D5A92212A8EE4D9739394737DAE /* iCarousel.framework */,
+				8314BFFC1507F682EF72252379F7304B /* Pods_CreolePriceSelectionView_Example.framework */,
+				97FA0B0360A438DD1012AA7A531CBB01 /* Pods_CreolePriceSelectionView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E687A07E29F2E0DF965B6687AA5805EE /* CreolePriceSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				469CF1DA196C9970E7212AD5586E276A /* Classes */,
+			);
+			name = CreolePriceSelectionView;
+			path = CreolePriceSelectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		377E92E4FA59D8538979B5163E11E43B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D28D63D33ED2CB6601D4B492B765ED1 /* iCarousel-umbrella.h in Headers */,
+				FA26C8BE3CE6BE1BED10D863CA7E6164 /* iCarousel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C1727953D10ED963C8F875552A65A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CD9FE2AA5761FF01A23F9556AA350A /* Pods-CreolePriceSelectionView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0604FC11405656AC45917D577ED36BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F099560ECC2EFF146641B758DAC9EEB /* CreolePriceSelectionView-umbrella.h in Headers */,
+				4D16D785FB25A9C1D151F40137F4F0F8 /* CreolePriceSelectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FC18117C201EE50E97AD282F0A9C54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A427FA1023F22048B6C52E6EF5940D66 /* Pods-CreolePriceSelectionView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00FCECD01460B7EE5950CB970DE23711 /* Pods-CreolePriceSelectionView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258A8B7E3D18BF8B9EA9F208A3927BFE /* Build configuration list for PBXNativeTarget "Pods-CreolePriceSelectionView_Tests" */;
+			buildPhases = (
+				158FA59C58C4A5EC499F5AAB00422FCD /* Sources */,
+				6194E375DBC88B012F345CDB98AF856B /* Frameworks */,
+				E0FC18117C201EE50E97AD282F0A9C54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CreolePriceSelectionView_Tests";
+			productName = "Pods-CreolePriceSelectionView_Tests";
+			productReference = 97FA0B0360A438DD1012AA7A531CBB01 /* Pods_CreolePriceSelectionView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1173F13968978B8D6A28E9535F188EA2 /* iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03834FF7A29C087C26AC0D9DF9621FF /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildPhases = (
+				797317899C79328AEBC19C15989AFA89 /* Sources */,
+				A05C7A8C9A6BEC1501E8DD9185F24E0C /* Frameworks */,
+				377E92E4FA59D8538979B5163E11E43B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarousel;
+			productName = iCarousel;
+			productReference = 98114D5A92212A8EE4D9739394737DAE /* iCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A25CF051E07B1746EB0E12D958A61B8 /* Pods-CreolePriceSelectionView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B097030A32972972CE52AEA219897FE5 /* Build configuration list for PBXNativeTarget "Pods-CreolePriceSelectionView_Example" */;
+			buildPhases = (
+				729D7603AE44E937C67EBCAA5325B40D /* Sources */,
+				26F57182D89B01874E1A3333951651E0 /* Frameworks */,
+				417C1727953D10ED963C8F875552A65A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DB347C30814A2E578D4047CCFAD814 /* PBXTargetDependency */,
+				EA216CCD2A7405A3037D8D69EE26807E /* PBXTargetDependency */,
+			);
+			name = "Pods-CreolePriceSelectionView_Example";
+			productName = "Pods-CreolePriceSelectionView_Example";
+			productReference = 8314BFFC1507F682EF72252379F7304B /* Pods_CreolePriceSelectionView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7FD2636CC09EA6A8427CFA82E61FFBB /* CreolePriceSelectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D1AC5DE188DA83ED7F2FA190A24FB6 /* Build configuration list for PBXNativeTarget "CreolePriceSelectionView" */;
+			buildPhases = (
+				5CA79F7D3E95D9E4C375C06ED29D031D /* Sources */,
+				DEEFBA7141019E3ACEC461B27216B070 /* Frameworks */,
+				C0604FC11405656AC45917D577ED36BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA41C6869D4A053F5330B04E668B6074 /* PBXTargetDependency */,
+			);
+			name = CreolePriceSelectionView;
+			productName = CreolePriceSelectionView;
+			productReference = F5574384D5CD7D2C56B9563F663D8F6D /* CreolePriceSelectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD2A0F13780FFF5779B8D0152D1D638B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FD2636CC09EA6A8427CFA82E61FFBB /* CreolePriceSelectionView */,
+				1173F13968978B8D6A28E9535F188EA2 /* iCarousel */,
+				3A25CF051E07B1746EB0E12D958A61B8 /* Pods-CreolePriceSelectionView_Example */,
+				00FCECD01460B7EE5950CB970DE23711 /* Pods-CreolePriceSelectionView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158FA59C58C4A5EC499F5AAB00422FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239348F78E25656497034D0311D3BC7B /* Pods-CreolePriceSelectionView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA79F7D3E95D9E4C375C06ED29D031D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E801522F542953D1BBCA2195D467FF5 /* CreolePriceSelectionView-dummy.m in Sources */,
+				7B05723ACDAC34AD87FA94A6FA1AFDA4 /* CreolePriceSelectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729D7603AE44E937C67EBCAA5325B40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E27D1C2DCB617210A466013797911CA /* Pods-CreolePriceSelectionView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797317899C79328AEBC19C15989AFA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F317FE21C53EE54EA7692A4D9662498F /* iCarousel-dummy.m in Sources */,
+				F92D7F4B4A56A3F806B5C3A40A5244E3 /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DB347C30814A2E578D4047CCFAD814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreolePriceSelectionView;
+			target = B7FD2636CC09EA6A8427CFA82E61FFBB /* CreolePriceSelectionView */;
+			targetProxy = B62FFDBC548A56D175F9D805499E6121 /* PBXContainerItemProxy */;
+		};
+		BA41C6869D4A053F5330B04E668B6074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = 1173F13968978B8D6A28E9535F188EA2 /* iCarousel */;
+			targetProxy = EA2C02FC4EA015E9855046E5DF3CD923 /* PBXContainerItemProxy */;
+		};
+		EA216CCD2A7405A3037D8D69EE26807E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = 1173F13968978B8D6A28E9535F188EA2 /* iCarousel */;
+			targetProxy = D718A410808553BBDA5B3E0EE74FAC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3180CFC686766AE370AFF283BEF71397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36531527C2B6A3D2AE64110ED3F8702 /* Pods-CreolePriceSelectionView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Tests/Pods-CreolePriceSelectionView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreolePriceSelectionView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		342FB114ACDB3A169DFADF7442380CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB4CA562EA91031828DD26DBD6B7C03 /* Pods-CreolePriceSelectionView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Example/Pods-CreolePriceSelectionView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreolePriceSelectionView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4CA4DD27F3C5AA87ED726DFDCB746B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BB151DD320D7E191EFAE1201AEFE77 /* CreolePriceSelectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreolePriceSelectionView/CreolePriceSelectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreolePriceSelectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreolePriceSelectionView/CreolePriceSelectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CreolePriceSelectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58575A7ADFD6407A3288BB7663F62E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8143EB11E49C567E8F8571C9DE9284E0 /* Pods-CreolePriceSelectionView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Example/Pods-CreolePriceSelectionView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreolePriceSelectionView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CD7FCC71BA3065E8A4A5FE3595D9BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F701F4C36CFEA50076D72B6437CCDAF /* iCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F64CA50BCF8CDC1C51A746DBCBACD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BB151DD320D7E191EFAE1201AEFE77 /* CreolePriceSelectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreolePriceSelectionView/CreolePriceSelectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreolePriceSelectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreolePriceSelectionView/CreolePriceSelectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CreolePriceSelectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B70EABDF9E53A6CFF0D65E381FBCAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F701F4C36CFEA50076D72B6437CCDAF /* iCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB47E83826A4442B9354419215F92995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728F1896EF1280F7C783D7DE70565AA9 /* Pods-CreolePriceSelectionView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreolePriceSelectionView_Tests/Pods-CreolePriceSelectionView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreolePriceSelectionView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D1AC5DE188DA83ED7F2FA190A24FB6 /* Build configuration list for PBXNativeTarget "CreolePriceSelectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F64CA50BCF8CDC1C51A746DBCBACD30 /* Debug */,
+				4CA4DD27F3C5AA87ED726DFDCB746B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258A8B7E3D18BF8B9EA9F208A3927BFE /* Build configuration list for PBXNativeTarget "Pods-CreolePriceSelectionView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3180CFC686766AE370AFF283BEF71397 /* Debug */,
+				FB47E83826A4442B9354419215F92995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B097030A32972972CE52AEA219897FE5 /* Build configuration list for PBXNativeTarget "Pods-CreolePriceSelectionView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58575A7ADFD6407A3288BB7663F62E5F /* Debug */,
+				342FB114ACDB3A169DFADF7442380CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03834FF7A29C087C26AC0D9DF9621FF /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70EABDF9E53A6CFF0D65E381FBCAE99 /* Debug */,
+				5CD7FCC71BA3065E8A4A5FE3595D9BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

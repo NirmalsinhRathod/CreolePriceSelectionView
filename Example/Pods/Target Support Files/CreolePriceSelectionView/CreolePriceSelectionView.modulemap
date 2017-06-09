@@ -1,0 +1,6 @@
+framework module CreolePriceSelectionView {
+  umbrella header "CreolePriceSelectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

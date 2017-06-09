@@ -1,0 +1,20 @@
+PODS:
+  - CreolePriceSelectionView (0.1.0):
+    - iCarousel
+  - iCarousel (1.8.3)
+
+DEPENDENCIES:
+  - CreolePriceSelectionView (from `../`)
+  - iCarousel
+
+EXTERNAL SOURCES:
+  CreolePriceSelectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CreolePriceSelectionView: ad96c39f80ddb5885936a35f693b3316487cd966
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+
+PODFILE CHECKSUM: f63084285615256ad70d988ff41b510bf7c2dc95
+
+COCOAPODS: 1.2.1
