@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+# Demo
+<br>
+<img height="356" src="https://dl.dropboxusercontent.com/s/yq0any0hepo70oa/PriceSelectionView.gif" />
+</br>
+
 ## Manual Installation
 
 Just drag a file into your project and use below code:
