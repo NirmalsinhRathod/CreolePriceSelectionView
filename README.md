@@ -35,7 +35,7 @@ Just drag a file into your project and use below code:
     // You can pass your array for price like this:
     [objCreolePriceSelectionView setup:[[NSMutableArray alloc] initWithObjects:@"10", @"20", @"30", @"40", @"50", @"60", @"70", @"80", @"90", @"100", nil]];
     
-    // Its directlly select the
+    // Its automatically select first value of array in slider.
     // This is optional steps to do. If you don't do this one, then it will set first automatically.
     [objCreolePriceSelectionView setPriceForItem:@"30"];
     
